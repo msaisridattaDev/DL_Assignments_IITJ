@@ -4,7 +4,7 @@ This repository contains the implementation of various deep learning assignments
 
 ## Overview
 
-The repository is organized into three main assignments, each focusing on different aspects of deep learning:
+The repository is organized into four main assignments, each focusing on different aspects of deep learning:
 
 1. **Assignment 1**: MNIST Classification using Convolutional Neural Networks (CNNs)
    - Implementation of a CNN for digit classification
@@ -19,6 +19,11 @@ The repository is organized into three main assignments, each focusing on differ
    - Implementation of an encoder-decoder architecture
    - Fine-tuning pre-trained models for segmentation tasks
    - Performance evaluation using IoU and Dice scores
+
+4. **Assignment 4**: Sketch-to-Image Translation using Conditional GANs
+   - Implementation of conditional GANs for medical image generation
+   - Label embedding for class-conditional generation
+   - Evaluation using FID, Inception Score, and classifier accuracy
 
 ## Technologies Used
 
@@ -44,6 +49,9 @@ DL_Assignments_IITJ/
 ├── Assignment3/
 │   ├── d23csa001_assignment3.py
 │   └── README.md
+├── Assignment4/
+│   ├── d23csa001_assignment4.py
+│   └── README.md
 └── README.md
 ```
 
@@ -52,7 +60,7 @@ DL_Assignments_IITJ/
 To run these assignments, you'll need to have Python and the required libraries installed. You can install the dependencies using:
 
 ```bash
-pip install torch torchvision torchaudio numpy matplotlib scikit-learn wandb idx2numpy
+pip install torch torchvision torchaudio numpy matplotlib scikit-learn wandb idx2numpy pandas torchmetrics pillow
 ```
 
 Each assignment folder contains its own README with specific instructions and explanations.

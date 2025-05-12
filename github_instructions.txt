@@ -1,0 +1,22 @@
+To push your code to GitHub, follow these steps:
+
+1. Go to GitHub.com and sign in with your account
+2. Click on the "+" icon in the top-right corner and select "New repository"
+3. Name the repository "DL_Assignments_IITJ"
+4. Add a description: "Deep Learning Assignments from IIT Jodhpur"
+5. Keep it as a public repository
+6. Don't initialize with a README (since we already have one)
+7. Click "Create repository"
+
+After creating the repository, run these commands in your terminal:
+
+```bash
+git remote add origin https://github.com/msaisridattaDev/DL_Assignments_IITJ.git
+git branch -M main
+git push -u origin main
+```
+
+If you're prompted for credentials, enter your GitHub username and password or personal access token.
+
+Once the push is complete, your code will be available at:
+https://github.com/msaisridattaDev/DL_Assignments_IITJ
